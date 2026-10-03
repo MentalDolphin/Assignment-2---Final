@@ -1,0 +1,3 @@
+{"name":"MuseumOfSound.Tests","references":["MuseumOfSound.Runtime","Oculus.Interaction","Oculus.VR"],"includePlatforms":[],"optionalUnityReferences":["TestAssemblies"],"autoReferenced":false}
+
+

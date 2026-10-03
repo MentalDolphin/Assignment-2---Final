@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-03 03:37:09Z" end-time="2026-10-03 03:37:11Z" duration="1.5661257">
+  <test-suite type="TestSuite" id="1007" name="Assignment #2" fullname="Assignment #2" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-03 03:37:09Z" end-time="2026-10-03 03:37:11Z" duration="1.566126" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1003" name="MuseumOfSound.Tests.dll" fullname="C:/Users/Jackson/Documents/Unity Projects/Assignment #2/Library/ScriptAssemblies/MuseumOfSound.Tests.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-03 03:37:09Z" end-time="2026-10-03 03:37:11Z" duration="1.557839" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="49548" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="MuseumInteractionTests" fullname="MuseumInteractionTests" classname="MuseumInteractionTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-03 03:37:09Z" end-time="2026-10-03 03:37:11Z" duration="1.554776" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="ExhibitAudioGrabPhysicsAndReset" fullname="MuseumInteractionTests.ExhibitAudioGrabPhysicsAndReset" methodname="ExhibitAudioGrabPhysicsAndReset" classname="MuseumInteractionTests" runstate="Runnable" seed="1569637944" result="Passed" start-time="2026-10-03 03:37:09Z" end-time="2026-10-03 03:37:11Z" duration="1.543200" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[
+IgnoreFailingMessages:true
+Unity v6000.3.22f1, Oculus Utilities v1.207.0, OVRPlugin v1.207.0, SDK v1.1.61.
+SystemHeadset Meta_Link_Quest_3, API OpenXR
+OpenXR instance 0x1 session 0x4C
+Current display frequency 72, available frequencies [72]
+Local Dimming feature is not supported
+[OVRPlugin] [GetBoundaryVisibility] m_XR_META_boundary_visibility extension is not supported.
+ (arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:18258)
+[OVRManager] Current hand skeleton version is OpenXR
+OpenXR Meta Quest Runtime Settings:
+Depth Submission Mode - None
+Rendering Mode - SinglePassInstanced
+Optimize Buffer Discards - False
+Symmetric Projection - False
+Subsampled Layout - False
+Space Warp - False
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetCurrentInteractionProfile(m_xrSession, topLevelUserPath, &interactionProfileState), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:16335
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+OVRControllerHelp: Active controller type: TouchPlus for product Meta Quest (headset Meta_Link_Quest_3, hand HandRight)
+At GameObject <color=#3366ff><b>OVRControllerVisual</b></color>. This prefab has been deprecated. Consider using using the replacement provided or unpack the prefab before upgrading to a new version in order to avoid losing information.
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetCurrentInteractionProfile(m_xrSession, topLevelUserPath, &interactionProfileState), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:16335
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+OVRControllerHelp: Active controller type: TouchPlus for product Meta Quest (headset Meta_Link_Quest_3, hand HandRight)
+At GameObject <color=#3366ff><b>OVRControllerVisual</b></color>. This prefab has been deprecated. Consider using using the replacement provided or unpack the prefab before upgrading to a new version in order to avoid losing information.
+[OVRManager] InputFocusLost event
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+Unable to process a controller whose SampleRateHz is 0 now.
+Unable to process a controller whose SampleRateHz is 0 now.
+[MetaXRFeature] OnAppSpaceChange: 107
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(107, 1)
+
+[OVRManager] HMDAcquired event
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 108
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(108, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 109
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(109, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 110
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(110, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 111
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(111, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 112
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(112, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 113
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(113, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 114
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(114, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 115
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(115, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 116
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(116, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 117
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(117, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 118
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(118, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 119
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(119, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 120
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(120, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 121
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(121, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 122
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(122, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 123
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(123, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 124
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(124, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 125
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(125, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 126
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(126, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 127
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(127, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 128
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(128, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 129
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(129, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 130
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(130, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 131
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(131, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 132
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(132, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 133
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(133, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 134
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(134, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 135
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(135, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 136
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(136, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 137
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(137, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 138
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(138, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 139
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(139, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 140
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(140, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 141
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(141, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 142
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(142, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 143
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(143, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 144
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(144, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 145
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(145, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 146
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(146, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 147
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(147, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 148
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(148, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 149
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(149, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 150
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(150, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 151
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(151, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 152
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(152, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 153
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(153, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 154
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(154, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 155
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(155, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 156
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(156, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 157
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(157, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 158
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(158, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 159
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(159, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 160
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(160, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 161
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(161, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 162
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(162, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 163
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(163, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 164
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(164, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 165
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(165, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 166
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(166, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 167
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(167, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 168
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(168, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 169
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(169, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 170
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(170, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 171
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(171, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 172
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(172, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 173
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(173, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 174
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(174, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 175
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(175, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 176
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(176, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 177
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(177, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 178
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(178, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 179
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(179, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 180
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(180, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 181
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(181, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 182
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(182, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 183
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(183, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 184
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(184, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 185
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(185, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 186
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(186, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 187
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(187, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 188
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(188, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 189
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(189, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 190
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(190, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 191
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(191, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 192
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(192, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 193
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(193, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 194
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(194, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 195
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(195, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 196
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(196, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 197
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(197, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 198
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(198, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 199
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(199, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 200
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(200, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 201
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(201, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 202
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(202, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 203
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(203, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 204
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(204, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 205
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(205, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 206
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(206, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 207
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(207, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 208
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(208, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 209
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(209, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 210
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(210, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 211
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(211, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 212
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(212, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 213
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(213, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 214
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(214, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 215
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(215, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 216
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(216, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 217
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(217, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 218
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(218, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 219
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(219, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 220
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(220, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 221
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(221, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 222
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(222, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 223
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(223, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 224
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(224, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 225
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(225, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 226
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(226, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 227
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(227, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 228
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(228, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 229
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(229, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 230
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(230, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 231
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(231, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 232
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(232, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 233
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(233, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 234
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(234, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 235
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(235, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 236
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(236, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 237
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(237, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 238
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(238, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 239
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(239, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 240
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(240, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 241
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(241, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 242
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(242, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 243
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(243, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 244
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(244, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 245
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(245, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 246
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(246, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 247
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(247, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 248
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(248, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 249
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(249, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 250
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(250, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 251
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(251, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 252
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(252, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 253
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(253, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 254
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(254, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 255
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(255, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 256
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(256, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 257
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(257, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 258
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(258, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 259
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(259, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 260
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(260, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 261
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(261, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 262
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(262, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 263
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(263, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 264
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(264, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 265
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(265, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 266
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(266, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 267
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(267, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 268
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(268, 1)
+
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 269
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(269, 1)
+
+
+IgnoreFailingMessages:false
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[OVRPlugin] [XRCMD][failure] [XR_ERROR_ACTIONSET_NOT_ATTACHED]: xrGetDeviceSampleRateFB(m_xrSession, &hapticActionInfo, &deviceSampleRate), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:13747
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:308)
+[MetaXRFeature] OnAppSpaceChange: 270
+[OVRPlugin] ovrp_UnityOpenXR_OnAppSpaceChange2(270, 1)
+
+<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/Jackson/AppData/LocalLow/DefaultCompany/Assignment #2\TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
